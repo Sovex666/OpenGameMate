@@ -2,7 +2,7 @@ name: Build app
 
 on:
   push:
-    branches: [ci/build-app]
+    branches: [main]
   workflow_dispatch:
 
 permissions:
